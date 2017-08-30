@@ -172,4 +172,14 @@ What all of this means:
 * [akorneev.web.cern.ch](http://akorneev.web.cern.ch/akorneev/howto/openafs.txt)
 * [Yngve's blog](http://eothred.wordpress.com/2011/05/09/cern-and-kerberos-tokens/)
 
-
+### How To Install a CERN Printer
+- Open the printer settings on your local computer.
+- Click "Add"
+- Select "Network printer" --> "LPD/LPR Host or printer"
+- Look for the name of your printer [here](https://printservice.web.cern.ch/printservice/UserTools/PrinterList.aspx)
+- Write __name.print.cern.ch__ in the field "Host" and __name__ in "Queue" and press "Forward"
+- Select brand and model of the printer
+- Select the duplexer if it can print both sides of the paper
+- Change the name of the printer to the original name provided by the CERN page provided above
+- Print a test page
+- Done!
