@@ -30,11 +30,8 @@ Then restart your computer.
 Download the following:
 
 ```
-sudo apt-get install openafs-client
-sudo apt-get install openafs-modules-dkms
-sudo apt-get install openafs-krb5
-sudo apt-get install krb5-user
-sudo apt-get install krb5-config
+sudo module-assistant prepare openafs-modules; module-assistant auto-build openafs-modules; dpkg -i /usr/src/openafs-modules-*.deb; apt-get install openafs-client; apt-get install openafs-modules-dkms; apt-get install openafs-krb5; apt-get install krb5-user; apt-get install krb5-config
+sudo service openafs-client start
 ```
 
 #### Step 2: generate your keytab
