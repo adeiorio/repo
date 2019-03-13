@@ -30,7 +30,7 @@ cmsenv
 ```
 and finally 
 ```
-scram b -j 4
+scramv1 b -j 4
 ```
 to compile
 
