@@ -15,7 +15,7 @@ Enter Import Password and then
 ```
 openssl pkcs12 -in cert.p12 -nocerts -out $HOME/.globus/userkey.pem
 ```
-Type ls ---- one must have three files 1223.p12*, usercert.pem, userkey.pem
+Type ls -lthra one must have three files 1223.p12*, usercert.pem, userkey.pem
 
 Type the following to see ur certifcate
 ```
