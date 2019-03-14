@@ -22,14 +22,15 @@ Type the following to see ur certifcate
 openssl x509 -in usercert.pem -noout -text | less
 ```
 Make sure that userkey.pem has valid permissions --600
+```
 -rw-r--r-- 1 wajid zh 3146 Mar 24 14:30 cert.p12
 -rw-r--r-- 1 wajid zh 2192 Mar 24 14:30 usercert.pem
 -rw-r--r-- 1 wajid zh 1900 Mar 24 14:31 userkey.pem
-
+```
 Change the permissions to
 ```
 chmod 600 userkey.pem
-```
 -rw-r--r-- 1 wajid zh 3146 Mar 24 14:30 cert.p12
 -rw-r--r-- 1 wajid zh 2192 Mar 24 14:30 usercert.pem
 -rw------- 1 wajid zh 1900 Mar 24 14:31 userkey.pem
+```
