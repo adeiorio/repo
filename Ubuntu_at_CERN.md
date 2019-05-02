@@ -182,6 +182,8 @@ What all of this means:
 - Done!
 
 ### Keep lxplus alive
-- sudo emacs /etc/ssh/ssh_config
-- ServerAliveInterval 60
-- ServerAliveCountMax 2
+'''
+sudo emacs /etc/ssh/ssh_config
+ServerAliveInterval 60
+ServerAliveCountMax 2
+'''
