@@ -180,3 +180,8 @@ What all of this means:
 - Change the name of the printer to the original name provided by the CERN page provided above
 - Print a test page
 - Done!
+
+### Keep lxplus alive
+- sudo emacs /etc/ssh/ssh_config
+- ServerAliveInterval 60
+- ServerAliveCountMax 2
