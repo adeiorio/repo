@@ -1,0 +1,7 @@
+If you then want to use this stack, you can do
+
+source /cvmfs/sft.cern.ch/lcg/views/setupViews.sh LCG_95 
+x86_64-centos7-gcc7-opt
+
+and you should have all the packages included in this specific stack for 
+this architecture, e.g. Keras and scikitlearn.
