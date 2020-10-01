@@ -60,7 +60,7 @@ cmsenv
 ```
 Load the configuration setup with the command: 
 ```
-source /cvmfs/cms.cern.ch/crab3/crab.sh
+source /cvmfs/cms.cern.ch/common/crab-setup.sh(csh)
 ```
 Re-do:
 ```
