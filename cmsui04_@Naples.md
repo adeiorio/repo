@@ -68,5 +68,5 @@ cmsenv
 ```
 Open the connection with:
 ```
-voms-proxy-init --voms cms
+voms-proxy-init --rfc --voms cms -valid 192:00
 ```
